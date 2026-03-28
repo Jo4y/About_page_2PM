@@ -26,9 +26,9 @@
   ## 📸 畫面預覽 (Screenshots)
 
 <p align="center">
-  <img src="assets/images/home.png" width="250" />
+  <img src="assets/images/home.jpg" width="250" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/images/home2.png" width="250" />
+  <img src="assets/images/home2.jpg" width="250" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/images/home3.png" width="250" />
+  <img src="assets/images/home3.jpg" width="250" />
 </p>
