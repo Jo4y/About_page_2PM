@@ -26,11 +26,11 @@
   ## 📸 畫面預覽 (Screenshots)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d0caff3a-58da-460d-95d8-2fcfba29703d" width="250" />
+  <img src="https://github.com/user-attachments/assets/d0caff3a-58da-460d-95d8-2fcfba29703d" width="100" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/8288b877-b103-4be5-80ac-33a56a2ad5cb" width="250" />
+  <img src="https://github.com/user-attachments/assets/8288b877-b103-4be5-80ac-33a56a2ad5cb" width="100" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/015b7424-06f0-405d-b347-0d40d181837f" width="250" />
+  <img src="https://github.com/user-attachments/assets/015b7424-06f0-405d-b347-0d40d181837f" width="100" />
 </p>
 
 
