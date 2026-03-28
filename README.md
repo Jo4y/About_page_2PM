@@ -1,16 +1,34 @@
-# about_2pm
+# 🌟 2PM 專屬介紹 App (Flutter)
 
-A new Flutter project.
+這是一個使用 Flutter 打造的「2PM (투피엠)」非官方專屬介紹 App。為 Flutter 課堂作業，展示了成員的基本資料、特殊事蹟，並結合豐富的 UI 排版與動畫效果。
 
-## Getting Started
+## ✨ 特色功能 (Features)
 
-This project is a starting point for a Flutter application.
+* **動態公告跑馬燈**：首頁包含一個自動輪播的公告欄，使用自訂的由下而上翻滾動畫 (`SlideTransition`)。
+* **專屬應援色設計**：點擊成員卡片後，彈出的詳細資料視窗 (`Dialog`) 會根據不同成員切換專屬的應援底色。
+* **豐富的圖文排版**：防呆的文字排版設計，確保文字過長時會自動換行而不溢出螢幕 (`Expanded`)。
+* **雙向滾動體驗**：
+  * 首頁與詳細資料頁支援**垂直滾動** (`SingleChildScrollView`)。
+  * 詳細資料頁底部包含「More about me」照片牆，支援**水平滾動** (`scrollDirection: Axis.horizontal`)。
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ 使用的技術與 Widget (Tech Stack)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+本專案完美契合了課堂作業的要求，實作了以下 Widget：
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **核心必用 Widget**：
+  `Text`, `Image`, `Icon`, `Column`, `Row`, `Color`, `Stack`, `SingleChildScrollView`
+* **進階排版與裝飾 Widget**：
+  `Container`, `Padding`, `SizedBox`, `Expanded`, `Positioned`, `SafeArea`, `Divider`, `CircleAvatar`, `ClipRRect` (裁切圓角)
+* **狀態管理與動畫**：
+  * `StatelessWidget`：用於建構主畫面、成員卡片與對話框。
+  * `StatefulWidget`：搭配 `Timer` 與 `AnimatedSwitcher` 實作狀態改變的跑馬燈動畫。
+
+  ## 📸 畫面預覽 (Screenshots)
+
+<p align="center">
+  <img src="assets/images/home.png" width="250" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/images/home2.png" width="250" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/images/home3.png" width="250" />
+</p>
